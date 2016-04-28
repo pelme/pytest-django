@@ -3,18 +3,21 @@ Changelog
 
 NEXT
 ----
-Bug fixes
-^^^^^^^^^
-
-* Fix error when Django happens to be imported before pytest-django runs.
-  Thanks to Will Harris for `the bug report
-  <https://github.com/pytest-dev/pytest-django/issues/289>`_.
 
 Features
 ^^^^^^^^
+* Add support for serialized rollback in transactional tests.
+  Thanks to Piotr Karkut for `the bug report
+  <https://github.com/pytest-dev/pytest-django/issues/329>`_.
+
 * Added a new option `--migrations` to negate a default usage of
   `--nomigrations`.
 
+Bug fixes
+^^^^^^^^^
+* Fix error when Django happens to be imported before pytest-django runs.
+  Thanks to Will Harris for `the bug report
+  <https://github.com/pytest-dev/pytest-django/issues/289>`_.
 2.9.1
 -----
 
